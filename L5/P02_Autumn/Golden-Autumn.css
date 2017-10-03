@@ -1,5 +1,5 @@
 body {
-    background: #bc6c09;
+    background-color: #bc6c09;
 }
 
 header {
@@ -29,7 +29,7 @@ img {
 }
 
 p {
-    color: #000000;
+    color: black;
     font-size: 18px;
 }
 
