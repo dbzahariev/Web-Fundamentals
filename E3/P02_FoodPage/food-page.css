@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: url("images/header.jpg") no-repeat;
+    background-size: cover;
+    height: 72px;
+}
+
+header h1 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 18px;
+}
+
+div.content {
+    margin-left: 100px;
+}
+
+article button {
+    border: 1px solid red;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    width: 180px;
+}
+
+article button:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+aside {
+    float: right;
+}
