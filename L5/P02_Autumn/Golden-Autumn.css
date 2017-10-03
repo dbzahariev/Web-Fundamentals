@@ -85,7 +85,7 @@ button {
     text-transform: uppercase;
 }
 
-a, button {
+a:hover, button:hover {
     color: red;
     background: #e8f3f4;
     font-style: italic;
