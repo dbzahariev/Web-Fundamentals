@@ -22,17 +22,22 @@ div.content {
 }
 
 article button {
-    border: 1px solid red;
+    border: 1px solid;
     border-radius: 12px;
     text-align: center;
-    color: red;
     width: 180px;
+    border-color: red;
+    background: none;
+
+    color: #ec5353;
+    font-size: 27px;
 }
 
 article button:hover {
-    background-color: red;
-    color: white;
+    background-color: #ec5353;
+
     cursor: pointer;
+    color: white;
 }
 
 div {
@@ -50,10 +55,6 @@ article p {
     font-size: 14px;
 }
 
-article button {
-    font-size: 27px;
-}
-
 aside {
     font-size: 24px;
     float: right;
@@ -64,6 +65,5 @@ aside img {
 }
 
 div article {
-
     margin-top: 34px;
 }
