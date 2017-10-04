@@ -7,24 +7,23 @@ body {
 header {
     background: url("images/header.jpg") no-repeat;
     background-size: cover;
-    height: 72px;
+    height: 200px;
 }
 
 header h1 {
     color: #FFFFFF;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 92px;
 }
 
 div.content {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 60px;
+    margin-left: 41px;
 }
 
 article button {
     border: 1px solid red;
     border-radius: 12px;
-    font-size: 20px;
     text-align: center;
     color: red;
     width: 180px;
@@ -37,32 +36,34 @@ article button:hover {
 }
 
 div {
-    max-width: 1140px;
+    max-width: 601px;
     float: left;
 }
 
-article {
-    font-size: 24px;
-}
-
 article img {
-    width: 1160px;
+    width: 600px;
 }
 
 article p {
-    margin: 3px
+    margin: 3px;
+    text-align: justify;
+    font-size: 14px;
 }
 
 article button {
     font-size: 27px;
-    margin: 20px;
 }
 
 aside {
+    font-size: 24px;
     float: right;
 }
 
-aside {
-    margin-top: 30px;
-    font-size: 24px;
+aside img {
+    width: 530px;
+}
+
+div article {
+
+    margin-top: 34px;
 }
