@@ -3,17 +3,17 @@ nav {
     margin: auto;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     overflow: hidden;
     background-color: black;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -21,6 +21,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: silver;
 }
