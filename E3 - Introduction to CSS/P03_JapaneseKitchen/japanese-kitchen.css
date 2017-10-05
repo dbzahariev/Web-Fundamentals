@@ -95,9 +95,14 @@ aside section ul li a {
 
 aside {
     font-size: 23px;
-    position: relative;
-    top: 30px;
-    left: 20px;
+    position: absolute;
+    z-index: 0;
+    background: white;
+    top: 151px;
+    left: 826px;
+    margin: 3px;
+    width: 224px;
+    height: 489px;
 }
 
 aside section ul li {
