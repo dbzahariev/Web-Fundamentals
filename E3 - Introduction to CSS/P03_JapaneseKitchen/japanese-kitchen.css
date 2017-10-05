@@ -10,6 +10,9 @@ body {
     font-size: 14px;
     width: 1024px;
     margin: 0 auto;
+
+    background: url("images/dark-wood.jpg");
+    background-size: cover;
 }
 
 header {
@@ -44,7 +47,6 @@ nav ul li a {
 
 article {
     float: left;
-
 }
 
 article figure {
@@ -62,6 +64,7 @@ article div h2 {
 article div h3 {
     font-size: 35px;
     font-weight: normal;
+    color: #dfc575
 }
 
 article p {
@@ -74,4 +77,43 @@ article {
     border-right: 0.5px solid silver;
     width: 800px;
     max-width: 800px;
+}
+
+aside section h2 {
+    color:red;
+}
+
+aside section ul {
+    text-decoration: none;
+    list-style: none
+}
+
+aside section ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+aside {
+    font-size: 23px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+aside section ul li {
+    padding: 10px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+article {
+    background: white;
 }
