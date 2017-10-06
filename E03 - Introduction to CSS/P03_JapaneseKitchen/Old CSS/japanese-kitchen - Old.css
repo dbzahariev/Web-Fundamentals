@@ -14,14 +14,14 @@ body {
 }
 
 header {
-    background: url("images/header-page.jpg") no-repeat;
     display: block;
+    background: url("images/header-page.jpg") no-repeat;
 }
 
 header h1 {
     /*text-align: right;*/
-    line-height: 120px;
     font-size: 30px;
+    line-height: 120px;
     /*width: 97%;*/
 }
 
@@ -48,10 +48,10 @@ nav li a:hover {
 }
 
 nav ul {
-    list-style-type: none;
+    overflow: hidden;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    list-style-type: none;
     /*background-color: #333;*/
     /*text-align: center;*/
 }
