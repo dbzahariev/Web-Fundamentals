@@ -44,3 +44,11 @@ header h1 {
 header img {
     width: 300px;
 }
+
+body nav {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #867260;
+}
