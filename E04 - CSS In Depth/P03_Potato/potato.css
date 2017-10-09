@@ -13,12 +13,6 @@ nav p {
     color: white;
 }
 
-header h1 {
-    text-align: center;
-    padding-top: 300px;
-    text-transform: capitalize;
-}
-
 nav ul {
     float: right;
     list-style: none;
@@ -26,6 +20,9 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -33,11 +30,17 @@ nav ul li a {
     color: white;
     text-align: center;
     margin: 0 20px;
-    /*margin: auto;*/
 }
 
-nav ul li {
-    border-radius: 15px;
-    border: 1px solid white;
-    margin: 0 10px;
+header {
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 300px;
+    text-transform: capitalize;
+}
+
+header img {
+    width: 300px;
 }
