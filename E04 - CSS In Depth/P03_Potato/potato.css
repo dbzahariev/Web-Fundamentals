@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+header {
+    background: radial-gradient(ellipse at center,
+    rgba(192,169,145,1) 0%,
+    rgba(192,169,145,1) 59%,
+    rgba(168,143,121,1) 100%);
+}
+
+nav p {
+    float: left;
+    font-size: 30px;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 300px;
+    text-transform: capitalize;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 0 20px;
+    /*margin: auto;*/
+}
+
+nav ul li {
+    border-radius: 15px;
+    border: 1px solid white;
+    margin: 0 10px;
+}
