@@ -242,3 +242,138 @@ h5 {
     color: #ffffff;
 }
 
+.consulting-woman {
+    background-size: cover;
+    background: url("images/consulting-woman.jpg") no-repeat;
+    height: 600px;
+    margin: 0;
+    position: relative;
+}
+
+.testimonial-info {
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    width: 500px;
+    padding: 64px 60px 53px 60px;
+    background: rgba(255, 255, 255, .7);
+}
+
+.testimonial-info > p::before,
+.testimonial-info > p::after {
+    content: open-quote;
+    color: #c79d63;
+    font-size: 32px;
+}
+
+.testimonial-info > p::after {
+    content: close-quote;
+}
+
+.testimonial-info footer {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.testimonial-info footer h4 {
+    font-size: 24px;
+}
+
+.testimonial-info footer p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #777777;
+}
+
+footer {
+    height: 280px;
+    background: rgb(9, 8, 33);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #ffffff
+}
+
+.partners {
+    height: 90px;
+    margin-top: 45px;
+}
+
+.partners ul {
+    display: flex;
+    justify-content: center;
+}
+
+.partners img {
+    width: 135px;
+    height: 60px;
+}
+
+footer h2 {
+    color: #ffffff;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.info li {
+    color: #ffffff;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.info li i {
+    font-size: 16px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    width: 153px;
+}
+
+.socials li {
+    width: 200px;
+}
+
+.socials a {
+    display: block;
+    width: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(131, 131, 143);
+    color: #090821;
+}
+
+.extra-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 148px;
+    width: 200px;
+}
+
+.extra-links ul li {
+    display: block;
+    padding: 5px;
+}
+
+.extra-links ul li a {
+    color: #c79d63;
+    text-decoration: none;
+}
+
+.instagram-widget ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.instagram-widget img {
+    width: 100px;
+    height: 100px;
+}
