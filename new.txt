@@ -52,3 +52,16 @@ nav ul li a {
 nav ul li a:hover {
 
 }
+
+
+
+
+
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+}

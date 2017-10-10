@@ -1,0 +1,7 @@
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+}
