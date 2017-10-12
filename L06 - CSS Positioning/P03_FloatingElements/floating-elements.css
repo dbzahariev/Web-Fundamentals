@@ -1,4 +1,4 @@
-div.FLeft {
+div.left {
     float: left;
     background: #6495ED;
     border: 1px solid #6495ED;
@@ -10,7 +10,7 @@ div.FLeft {
     line-height: 50px;
 }
 
-div.FRight {
+div.right {
     float: right;
     background: #6495ED;
     border: 1px solid #6495ED;
@@ -22,7 +22,7 @@ div.FRight {
     line-height: 50px;
 }
 
-div.FNone {
+div.center {
     float: none;
     background: #6495ED;
     border: 1px solid #6495ED;
