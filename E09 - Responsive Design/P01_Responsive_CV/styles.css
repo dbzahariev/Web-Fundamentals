@@ -95,9 +95,8 @@ a:hover {
 
 /** @group core layout **/
 #wrapper {
-    margin: 0px 50px;
-    padding: 20px 40px;
-    padding-top: 35px;
+    margin: 0 50px;
+    padding: 35px 40px 20px;
     background: #fff;
     min-width: 260px;
     max-width: 900px;
