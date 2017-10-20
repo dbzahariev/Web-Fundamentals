@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+    /*margin: 10%;*/
+
+}
+
+body {
+    /*background: url("images/dark-wood.jpg");*/
+    /*text-align: center;*/
+    font: 14px 'Lato', sans-serif;
+}
+
+header {
+    display: block;
+    background: url("images/header-page.jpg") no-repeat;
+}
+
+header h1 {
+    /*text-align: right;*/
+    font-size: 30px;
+    line-height: 120px;
+    /*width: 97%;*/
+}
+
+nav ul {
+    /*list-style-type: none;*/
+    /*overflow: hidden;*/
+    /*background: url("images/header-page.jpg");*/
+}
+
+nav ul li {
+    /*float: left;*/
+}
+
+nav ul li a {
+    /*display: block;*/
+    /*color: white;*/
+    /*text-align: center;*/
+    /*padding: 7px 16px;*/
+    /*text-decoration: none;*/
+}
+
+nav li a:hover {
+    /*background-color: #111;*/
+}
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /*background-color: #333;*/
+    /*text-align: center;*/
+}
+
+nav li {
+    float: left;
+}
+
+header {
+    margin: auto;
+}

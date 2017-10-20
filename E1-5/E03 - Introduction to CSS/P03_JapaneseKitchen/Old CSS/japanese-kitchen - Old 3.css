@@ -1,0 +1,49 @@
+* {
+    margin: auto;
+    padding: 0;
+    max-width: 940px;
+}
+
+body {
+    font: 14px 'Lato', sans-serif;
+}
+
+header {
+    height: 130px;
+    background: url("images/header-page.jpg") no-repeat;
+}
+
+header h1 {
+    padding-right: 15px;
+    text-align: right;
+    line-height: 134px;
+}
+
+nav {
+    margin: auto;
+    width: 1024px;
+}
+
+nav ul {
+    overflow: hidden;
+    width: 940px;
+    height: 40px;
+    background: url("images/header-page.jpg");
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: silver;
+}

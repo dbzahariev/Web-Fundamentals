@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table tbody {
+    text-align: left;
+}
+
+table tfoot {
+    text-align: left;
+    margin: 1px;
+}

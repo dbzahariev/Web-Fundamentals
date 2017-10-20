@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+article {
+    float: left;
+    width: 300px;
+    margin-right: 1%;
+    position: relative;
+    color: #70777F;
+}
+
+p.title {
+    background: #E3E7EA;
+    background-size: cover;
+    text-align: center;
+    height: 80px;
+    line-height: 70px;
+}
+
+p.price {
+    text-align: center;
+    font-size: 50px;
+}
+
+button {
+    text-transform: capitalize;
+    border-radius: 3px;
+    background: #DDDDDD;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+
+article ul {
+    list-style-type: none;
+    color: #70777F;
+}

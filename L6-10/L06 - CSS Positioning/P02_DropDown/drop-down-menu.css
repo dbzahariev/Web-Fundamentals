@@ -1,0 +1,25 @@
+.MainNav {
+    display: inline-block;
+}
+
+ul li {
+    display: none;
+}
+
+nav {
+    background: #e67c1f;
+}
+
+body {
+    background: #1d211e;
+    color: #333;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.first-drop-down {
+    display: inline;
+}

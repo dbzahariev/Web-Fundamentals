@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    background: #DDDDDD;
+    border-radius: 10px;
+    width: 800px;
+    text-transform: capitalize;
+}
+
+body button {
+    text-transform: capitalize;
+}
+
+article {
+    float: left;
+    background: #EEEEEE;
+    margin: 3px;
+}
+
+p.num {
+    background: #9470DC;
+    border-radius: 50%;
+    height: 130px;
+    text-align: center;
+    line-height: 130px;
+    font-size: 30px;
+    color: #F1EBF9;
+}
+
+p.txt {
+    color: #ADADAF;
+}
+
+article button {
+    text-align: center;
+    background-color: #DDDDDD;
+    background-size: cover;
+    border-color: #dddddd;
+    margin: 3px 3px 3px 22px;
+}
