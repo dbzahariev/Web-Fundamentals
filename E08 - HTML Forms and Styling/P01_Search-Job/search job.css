@@ -1,8 +1,8 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 
 ul, div, nav, label {
-    Margin: 0;
-    Padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -20,7 +20,7 @@ nav > ul {
 }
 
 nav ul li {
-    Display: inline-block;
+    display: inline-block;
     text-decoration: none;
     padding: 25px;
 }
@@ -87,15 +87,15 @@ main input {
 
 button {
     margin-left: 38px;
-    Width: 210px;
-    Height: 46px;
-    Text-transform: uppercase;
-    Background-color: #384452;
-    Color: #CED1CA;
+    width: 210px;
+    height: 46px;
+    text-transform: uppercase;
+    background-color: #384452;
+    color: #CED1CA;
 }
 
 button:hover {
-    Background-color: #3BBC96;
-    Color: #FFF7E4;
-    Cursor: pointer;
+    background-color: #3BBC96;
+    color: #FFF7E4;
+    cursor: pointer;
 }
