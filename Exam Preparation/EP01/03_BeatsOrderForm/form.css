@@ -1,13 +1,41 @@
-header {
-    border: 1px solid red;
-    border-radius: 10px;
-    margin: auto;
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900";
+
+body {
+    background: darkgray;
+}
+
+main {
+    width: 900px;
+    border: 1px solid black;
+    background: whitesmoke;
+    display: inline-block;
+    height: 620px;
+    font-family: "Open Sans", sans-serif;
 }
 
 img {
     float: left;
+    position: relative;
+    top: -6px;
+    left: 50px;
 }
 
-header {
-    float: right;
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+}
+
+
+h1, p, form {
+    text-align: right;
+}
+
+.section-right form {
+    justify-content: flex-end;
+
 }
