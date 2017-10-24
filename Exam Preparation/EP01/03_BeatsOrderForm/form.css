@@ -28,8 +28,9 @@ h1 {
 
 form {
     display: flex;
+    align-items: flex-end;
+    flex-direction: row;
 }
-
 
 h1, p, form {
     text-align: right;
@@ -37,5 +38,37 @@ h1, p, form {
 
 .section-right form {
     justify-content: flex-end;
+}
 
+input[type="text"] {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+    text-transform: uppercase;
+    margin: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.input-field {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    color: darkgray;
+    top: 20px;
+}
+
+button {
+    float: right;
+    margin: 35px 40px 0 0;
+    background: darkgray;
+    border-radius: 20px;
+    color: #FFFFFF;
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    border-color: black;
+    font-weight: bold;
 }
