@@ -1,0 +1,13 @@
+header {
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: auto;
+}
+
+img {
+    float: left;
+}
+
+header {
+    float: right;
+}
