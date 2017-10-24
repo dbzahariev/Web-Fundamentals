@@ -1,0 +1,69 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900";
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 30px;
+    text-transform: uppercase;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+main section {
+    display: inline-block;
+}
+
+.first-section, .second-section {
+    width: 40%;
+    float: left;
+}
+
+main {
+    width: 1000px;
+}
+
+p {
+    width: 100%;
+}
+
+img {
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+
+.first-section {
+    display: block;
+    box-sizing: border-box;
+}
+
+.second-section img {
+    float: right;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-bottom: 120px;
+}
+
+.powerbeats-first, .powerbeats-second {
+    float: right;
+    display: inline-block;
+}
+
+.section-2 {
+    background: #CCCCCC;
+}
+
+.powerbeats-first, .powerbeats-second {
+    text-align: center;
+}
+
+.powerbeats-second
