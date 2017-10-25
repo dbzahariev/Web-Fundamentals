@@ -1,0 +1,114 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #444;
+    height: 700px;
+    position: relative;
+    z-index: 0;
+}
+
+.opacity {
+    z-index: -1;
+    background: url("images/background.jpg");
+    background-size: cover;
+    position: absolute;
+    opacity: 0.3;
+    height: 700px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    background-color: lightgray;
+    justify-content: center;
+}
+
+.ofer{
+    text-align: center;
+    display: block;
+
+}
+
+.mid-art {
+    margin: 0 30px;
+}
+
+figcaption {
+    background-color: white;
+    margin-top: -3px;
+    margin-bottom: 40px;
+}
+
+.price {
+    float: right;
+}
+
+.cust {
+    background-color: white;
+    text-align: center;
+}
+
+.last-heading {
+    text-align: center;
+}
+
+.cust article img {
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.cust article {
+    width: 25%;
+}
+
+.cust article:nth-child(2) {
+    margin: 0 35px;
+}
+
+.cust article h4 {
+    margin: 20px 0;
+}
+
+.footer-nav {
+    justify-content: center;
+    color: black;
+}
+
+.footer-nav a {
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}

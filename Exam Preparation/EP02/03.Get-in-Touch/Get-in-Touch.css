@@ -10,5 +10,22 @@ body {
 }
 
 form {
-    width: 70%;
+    width: 65%;
+}
+
+.first-container, .second-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type="text"] {
+    width: 420px;
+}
+
+.first-container div, .second-container div {
+    margin-top: 15px;
+}
+
+.text-area textarea {
+    width: 97%;
 }
